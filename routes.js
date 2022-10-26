@@ -7,5 +7,9 @@ module.exports = function(app) {
     app.get('/direto', (req, res) => {
         res.render('pages/direto');
     })
+
+    app.get('/indireto', (req, res) => {
+        res.render('pages/indireto');
+    })
     
 }

@@ -7,7 +7,7 @@ const minify = require('gulp-minify');
 const rename = require('gulp-rename');
 const concat = require('gulp-concat');
 
-const sass_src_dir = 'assets/styles/scss/*.scss';
+const sass_src_dir = 'assets/styles/scss/**/*.scss';
 const sass_dest_dir = './assets/styles';
 
 const js_src_dir = ['./assets/scripts/js/*.js', './assets/scripts/js/**/*.js'];
