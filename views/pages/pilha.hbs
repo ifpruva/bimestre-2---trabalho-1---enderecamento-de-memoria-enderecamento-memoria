@@ -1,10 +1,10 @@
 <section class="page"> 
     <div class="container">
 
-        <div class="etapa etapa-direto step-1">
+        <div class="etapa etapa-pilha step-1">
 
             <div class="simulacao">
-                <div class="memoria">
+                <div class="pilha">
                     <div class="instrucao">
                         <p class="texto-instrucao"></p>
                     </div>
@@ -13,15 +13,14 @@
 
             <div class="texto">
                 <p>
-                   Campo de endereço contém o endereço efetivo
-do operando.
-Não é comum em arquiteturas atuais.
+                    As instruções da máquina não precisam incluir uma
+referência de memória e sim operar no topo da pilha.
                 </p>
             </div>
 
             {{> botoes}}
 
         </div>
-    <script src="/assets/scripts/js/steps/direto.js"></script>
+    <script src="/assets/scripts/js/steps/pilha.js"></script>
     </div>
 </section>

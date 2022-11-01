@@ -1,4 +1,4 @@
-.etapa-direto {
+.etapa-indireto-registrador {
     
     .simulacao {
         .memoria {
@@ -7,7 +7,13 @@
             .instrucao {
               position: absolute;
               right: calc(100% + 20rem);
-              top: calc(2rem * 7);
+              top: calc(2rem * 1);
+            }
+            .registradores {
+                right: calc(100% + 4rem);
+                top: calc(2rem * 6);
+                position: absolute;
+                z-index: -1;
             }
         }
     }
@@ -17,8 +23,9 @@
             .memoria {
                 .instrucao {
                     position: absolute;
-                    right: 0;
-                    top: calc(2rem * 7);
+                    right: calc(100% + 4rem);
+                    top: 15rem;
+                    z-index: 2;
                 }
             }
         }

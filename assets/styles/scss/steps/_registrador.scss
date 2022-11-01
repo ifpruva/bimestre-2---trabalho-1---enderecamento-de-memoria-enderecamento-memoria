@@ -1,7 +1,7 @@
-.etapa-direto {
+.etapa-registrador {
     
     .simulacao {
-        .memoria {
+        .registrador {
             margin: auto 5rem auto auto;
     
             .instrucao {
@@ -14,7 +14,7 @@
 
     &.step-2 {
         .simulacao {
-            .memoria {
+            .registrador {
                 .instrucao {
                     position: absolute;
                     right: 0;
@@ -25,7 +25,7 @@
     }
     &.step-3 {
         .simulacao {
-            .memoria {
+            .registrador {
                 .instrucao {
                     position: absolute;
                     right: 0;

@@ -1,27 +1,30 @@
 <section class="page"> 
     <div class="container">
 
-        <div class="etapa etapa-direto step-1">
+        <div class="etapa etapa-indireto-registrador step-1">
 
             <div class="simulacao">
                 <div class="memoria">
                     <div class="instrucao">
                         <p class="texto-instrucao"></p>
                     </div>
+                    <div class="registradores">
+
+                    </div>
                 </div>
             </div>
 
             <div class="texto">
                 <p>
-                   Campo de endereço contém o endereço efetivo
-do operando.
-Não é comum em arquiteturas atuais.
+                   Semelhante ao endereçamento indireto. O campo
+de endereço se refere a um registrador que possui
+o endereço do operando.
                 </p>
             </div>
 
             {{> botoes}}
 
         </div>
-    <script src="/assets/scripts/js/steps/direto.js"></script>
+    <script src="/assets/scripts/js/steps/indireto-registrador.js"></script>
     </div>
 </section>

@@ -1,31 +1,31 @@
-.etapa-direto {
+.etapa-pilha {
     
     .simulacao {
-        .memoria {
+        .pilha {
             margin: auto 5rem auto auto;
     
             .instrucao {
               position: absolute;
               right: calc(100% + 20rem);
-              top: calc(2rem * 7);
+              top: calc(2rem * 3);
             }
         }
     }
 
     &.step-2 {
         .simulacao {
-            .memoria {
+            .pilha {
                 .instrucao {
                     position: absolute;
                     right: 0;
-                    top: calc(2rem * 7);
+                    top: calc(2rem * -1.01);
                 }
             }
         }
     }
     &.step-3 {
         .simulacao {
-            .memoria {
+            .pilha {
                 .instrucao {
                     position: absolute;
                     right: 0;

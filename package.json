@@ -1,20 +1,32 @@
 {
   "name": "trabalho",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Open in Codespaces](https://classroom.github.com/assets/open-in-codespaces-abfff4d4e15f9e1bd8274d9a39a0befe03a0632bb0f153d0ec72ff541cedbe34.svg) # Título Descreva aqui sobre o que é o seu trabalho.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-jshint": "^2.1.0",
     "gulp-minify": "^3.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.13.5",
+    "jshint-stylish": "^2.2.1",
     "node-sass": "^7.0.3",
     "nodemon": "^2.0.20",
     "sass": "^1.55.0"
@@ -23,7 +35,7 @@
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
     "express-handlebars-sections": "^1.0.1",
-    "gulp": "^4.0.2",
     "handlebars": "^4.7.7"
-  }
+  },
+  "keywords": []
 }
