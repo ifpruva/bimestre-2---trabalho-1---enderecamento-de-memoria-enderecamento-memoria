@@ -23,4 +23,7 @@ module.exports = function(app) {
     app.get('/indireto-registrador', (req, res) => {
         res.render('pages/indireto-registrador');
     })
+    app.get('/deslocamento', (req, res) => {
+        res.render('pages/deslocamento');
+    })
 }

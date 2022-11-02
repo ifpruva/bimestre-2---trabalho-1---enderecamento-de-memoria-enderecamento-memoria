@@ -1,0 +1,80 @@
+.etapa-deslocamento {
+    
+    .simulacao {
+        .memoria {
+            margin: auto 5rem auto auto;
+    
+            .instrucao {
+              position: absolute;
+              right: calc(100% + 20rem);
+              top: calc(2rem * 1);
+              width: calc(100% - 3.5rem);
+            }
+            .instrucao1{
+                position: absolute;
+                right: calc(100% + 33.5rem);
+                top: calc(2rem * 1);
+            }
+            .registradores {
+                right: calc(100% + 20rem);
+                top: calc(2rem * 6);
+                position: absolute;
+                z-index: -1;
+            }
+        }
+    }
+
+    &.step-2 {
+        .simulacao {
+            .memoria {
+                .instrucao1 {
+                    position: absolute;
+                    right: calc(100% + 20rem);
+                    top: 15rem;
+                    z-index: 2;
+                    width: 100%!important;
+                }
+                .instrucao {
+                    position: absolute;
+                    right: 18rem;
+                    top: calc(2rem * 8);
+                    width: calc(100% - 3.5rem);
+                }
+            }
+        }
+    }
+    &.step-3 {
+        .simulacao {
+            .memoria {
+                .instrucao {
+                    position: absolute;
+                    right: 18rem;
+                    top: calc(2rem * 8);
+                    width: calc(100% - 3.5rem);
+                }
+                .instrucao1{
+                    position: absolute;
+                    right: 31.5rem;
+                    top: calc(2rem * 8);
+                }
+            }
+        }
+    }
+    &.step-4 {
+        .simulacao {
+            .memoria {
+                .instrucao {
+                    position: absolute;
+                    right: 0rem;
+                    top: calc(2rem * 5);
+                    width: calc(100% - 3.5rem);
+                }
+                .instrucao1{
+                    position: absolute;
+                    right: 13.5rem;
+                    top: calc(2rem * 5);
+                }
+            }
+        }
+    }
+}
