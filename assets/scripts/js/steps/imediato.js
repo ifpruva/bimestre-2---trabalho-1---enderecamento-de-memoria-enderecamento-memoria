@@ -8,6 +8,5 @@ async function nextEtapa(){
 document.querySelector(".prev-button").addEventListener("click", prevEtapa);
 
 async function prevEtapa(){
-    document.querySelector(".texto-instrucao").textContent = "";
-
+    document.querySelector(".texto-instrucao").textContent = "INSTRUÇÃO";
 }
