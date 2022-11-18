@@ -1,28 +1,23 @@
-<section class="page"> 
-    <div class="container">
+{{#section 'slug'}}etapa-direto{{/section}}
 
-        <div class="etapa etapa-direto step-1">
-
-            <div class="simulacao">
-                <div class="memoria">
-                    <div class="instrucao">
-                        <p class="texto-instrucao">INSTRUÇÃO</p>
-                    </div>
-                    <h1 class="texto-memoria">Memória</h1>
-                </div>
+{{#section 'simulacao'}}
+    <div class="memoria">
+        <div class="memoria">
+            <div class="instrucao">
+                <p class="texto-instrucao">Instrução</p>
             </div>
-
-            <div class="texto">
-                <p>
-                     O campo operando  tem um endereço para a memória principal que aponta para outro endereço onde está o valor. 
-                     Sua vantagem é que a partir de um campo de endereço com número de bits restritos pode-se acessar a um espaço de endereçamento maior e 
-                     há a possibilidade da implementação de ponteiros e sua desvantagem é o número de acessos para resgatar o valor.
-                </p>
-            </div>
-
-            {{> botoes}}
-
+            <h1 class="texto-memoria">Memória</h1>
         </div>
-    <script src="/assets/scripts/js/steps/indireto.js"></script>
     </div>
-</section>
+{{/section}}
+
+{{#section 'texto'}}
+    O campo operando  tem um endereço para a memória principal que aponta para outro endereço onde está o valor. 
+    Sua vantagem é que a partir de um campo de endereço com número de bits restritos pode-se acessar a um espaço 
+    de endereçamento maior e há a possibilidade da implementação de ponteiros e sua desvantagem é o número de 
+    acessos para resgatar o valor.
+{{/section}}
+
+{{#section 'scripts'}}
+    <script src="/assets/scripts/js/steps/indireto.js"></script>
+{{/section}}

@@ -1,33 +1,26 @@
-<section class="page"> 
-    <div class="container">
+{{#section 'slug'}}etapa-deslocamento{{/section}}
 
-        <div class="etapa etapa-deslocamento step-1">
-
-            <div class="simulacao">
-                <div class="memoria">
-                    <div class="instrucao">
-                        <p class="texto-instrucao"></p>
-                    </div>
-                    <h1 class="texto-memoria">Memória</h1>
-                    <div class="instrucao1">
-                        <p class="texto-instrucao1">INSTRUÇÃO</p>
-                    </div>
-                    <div class="registradores">
-                        <h1 class="texto-registrador">Registrador</h1>
-                    </div>
-                </div>
-            </div>
-
-            <div class="texto">
-                <p>
-                   É um método muito poderoso porque combina a capacidade do endereçamento direto com o endereçamento indireto via registrador. 
-                   No modo de endereçamento por deslocamento, o endereçamento do dado é determinado pela soma de dois operandos
-                </p>
-            </div>
-
-            {{> botoes}}
-
+{{#section 'simulacao'}}
+    <div class="memoria">
+        <div class="instrucao">
+            <p class="texto-instrucao"></p>
         </div>
-    <script src="/assets/scripts/js/steps/deslocamento.js"></script>
+        <h1 class="texto-memoria">Memória</h1>
+        <div class="instrucao1">
+            <p class="texto-instrucao1">Instrução</p>
+        </div>
+        <div class="registradores">
+            <h1 class="texto-registrador">Registrador</h1>
+        </div>
     </div>
-</section>
+{{/section}}
+
+{{#section 'texto'}}
+    É um método muito poderoso porque combina a capacidade do endereçamento direto com o endereçamento 
+    indireto via registrador. No modo de endereçamento por deslocamento, o endereçamento do dado é determinado 
+    pela soma de dois operandos.
+{{/section}}
+
+{{#section 'scripts'}}
+    <script src="/assets/scripts/js/steps/deslocamento.js"></script>
+{{/section}}

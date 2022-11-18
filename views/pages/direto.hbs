@@ -1,28 +1,20 @@
-<section class="page"> 
-    <div class="container">
+{{#section 'slug'}}etapa-direto{{/section}}
 
-        <div class="etapa etapa-direto step-1">
-
-            <div class="simulacao">
-                <div class="memoria">
-                    <div class="instrucao">
-                        <p class="texto-instrucao">INSTRUÇÃO</p>
-                    </div>
-                    <h1 class="texto-memoria">Memória</h1>
-                </div>
-            </div>
-
-            <div class="texto">
-                <p>
-                   O endereço do operando é determinado pela própria instrução (endereço de 8 bits).
-Neste caso, apenas a RAM interna e os registradores especiais podem ser acessados. Não é comum em arquiteturas atuais, ele transfere um byte ou uma palavra entre
-uma posição de memória.
-                </p>
-            </div>
-
-            {{> botoes}}
-
+{{#section 'simulacao'}}
+    <div class="memoria">
+        <h1 class="texto-memoria">Memória</h1>
+        <div class="instrucao">
+            <p class="texto-instrucao">Instrução</p>
         </div>
-    <script src="/assets/scripts/js/steps/direto.js"></script>
     </div>
-</section>
+{{/section}}
+
+{{#section 'texto'}}
+    O endereço do operando é determinado pela própria instrução (endereço de 8 bits). Neste caso, apenas a RAM 
+    interna e os registradores especiais podem ser acessados. Não é comum em arquiteturas atuais, ele transfere 
+    um byte ou uma palavra entre uma posição de memória.
+{{/section}}
+
+{{#section 'scripts'}}
+    <script src="/assets/scripts/js/steps/direto.js"></script>
+{{/section}}

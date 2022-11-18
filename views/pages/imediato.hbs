@@ -1,24 +1,16 @@
-<section class="page"> 
-    <div class="container">
+{{#section 'slug'}}etapa-imediato{{/section}}
 
-        <div class="etapa etapa-imediato step-1">
-
-            <div class="simulacao">
-                <div class="instrucao">
-                    <p class="texto-instrucao">INSTRUÇÃO</p>
-                </div>
-            </div>
-
-            <div class="texto">
-                <p>
-                   Forma mais simples, transfere um byte ou uma palavra
-de dado imediato. Como o operando é constante, ele é usado para definir constantes ou valores iniciais de variáveis.
-                </p>
-            </div>
-
-            {{> botoes}}
-
-        </div>
-    <script src="/assets/scripts/js/steps/imediato.js"></script>
+{{#section 'simulacao'}}
+    <div class="instrucao">
+        <p class="texto-instrucao">Instrução</p>
     </div>
-</section>
+{{/section}}
+
+{{#section 'texto'}}
+    Forma mais simples, transfere um byte ou uma palavra de dado imediato. Como o operando é constante, 
+    ele é usado para definir constantes ou valores iniciais de variáveis.
+{{/section}}
+
+{{#section 'scripts'}}
+    <script src="/assets/scripts/js/steps/imediato.js"></script>
+{{/section}}

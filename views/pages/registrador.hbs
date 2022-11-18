@@ -1,28 +1,21 @@
-<section class="page"> 
-    <div class="container">
+{{#section 'slug'}}etapa-registrador{{/section}}
 
-        <div class="etapa etapa-registrador step-1">
-
-            <div class="simulacao">
-                <div class="registrador">
-                    <div class="instrucao">
-                        <p class="texto-instrucao">INSTRUÇÃO</p>
-                    </div>
-                    <h1 class="texto-registrador">Registrador</h1>
-                </div>
-            </div>
-
-            <div class="texto">
-                <p>
-Tem o mesmo conceito de endereçamento direto, a diferença é que o operando estará armazenado em um registrador e não na memória principal. 
-Como o número de registradores é bem menor que o número de posições de memória, o campo de endereçamento é mais curto e assim instruções diferentes são utilizadas 
-para representar operando do registrador e operando da memória principal. 
-                </p>
-            </div>
-
-            {{> botoes}}
-
+{{#section 'simulacao'}}
+    <div class="registrador">
+        <div class="instrucao">
+            <p class="texto-instrucao">Instrução</p>
         </div>
-    <script src="/assets/scripts/js/steps/registrador.js"></script>
+        <h1 class="texto-registrador">Registrador</h1>
     </div>
-</section>
+{{/section}}
+
+{{#section 'texto'}}
+    Tem o mesmo conceito de endereçamento direto, a diferença é que o operando estará armazenado em um registrador 
+    e não na memória principal. Como o número de registradores é bem menor que o número de posições de memória, o 
+    campo de endereçamento é mais curto e assim instruções diferentes são utilizadas para representar operando do 
+    registrador e operando da memória principal. 
+{{/section}}
+
+{{#section 'scripts'}}
+    <script src="/assets/scripts/js/steps/registrador.js"></script>
+{{/section}}

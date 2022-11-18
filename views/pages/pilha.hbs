@@ -1,32 +1,24 @@
-<section class="page"> 
-    <div class="container">
+{{#section 'slug'}}etapa-pilha{{/section}}
 
-        <div class="etapa etapa-pilha step-1">
-
-            <div class="simulacao">
-                <div class="pilha">
-                    <div class="instrucao">
-                        <p class="texto-instrucao">INSTRUÇÃO</p>
-                    </div>
-                    <h1 class="texto-memoria">Memória</h1>
-                    <div class="instrucao2">
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="texto">
-                <p>
-                    Consistem em itens de dados armazenados em ordem consecutiva na memória, onde o primeiro item é denominado fundo da pilha. 
-                    O apontador da pilha é um registrador que contém o endereço do topo da pilha. 
-                    As instruções sem operadores utilizam a pilha para efetuar as operações, onde os operandos utilizados são sempre retirados do topo da pilha 
-                    e o resultado dessa operação é deixado no topo.
-                </p>
-            </div>
-
-            {{> botoes}}
-
+{{#section 'simulacao'}}
+    <div class="pilha">
+        <div class="instrucao">
+            <p class="texto-instrucao">Instrução</p>
         </div>
-    <script src="/assets/scripts/js/steps/pilha.js"></script>
+        <h1 class="texto-memoria">Memória</h1>
+        <div class="instrucao2">
+            
+        </div>
     </div>
-</section>
+{{/section}}
+
+{{#section 'texto'}}
+    Consistem em itens de dados armazenados em ordem consecutiva na memória, onde o primeiro item é denominado fundo da pilha. 
+    adores utilizam a pilha para efetuar as operações, onde os operandos utilizados são sempre retirados do topo da pilha 
+    e o resultado dessa ope   O apontador da pilha é um registrador que contém o endereço do topo da pilha. 
+    As instruções sem operração é deixado no topo.
+{{/section}}
+
+{{#section 'scripts'}}
+    <script src="/assets/scripts/js/steps/pilha.js"></script>
+{{/section}}

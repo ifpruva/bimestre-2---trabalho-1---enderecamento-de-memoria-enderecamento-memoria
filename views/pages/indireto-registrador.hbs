@@ -1,31 +1,22 @@
-<section class="page"> 
-    <div class="container">
+{{#section 'slug'}}etapa-indireto-registrador{{/section}}
 
-        <div class="etapa etapa-indireto-registrador step-1">
-
-            <div class="simulacao">
-                <div class="memoria">
-                    <div class="instrucao">
-                        <p class="texto-instrucao">INSTRUÇÃO</p>
-                    </div>
-                    <h1 class="texto-memoria">Memória</h1>
-                    <div class="registradores">
-                        <h1 class="texto-registrador">Registrador</h1>
-                    </div>
-                </div>
-            </div>
-
-            <div class="texto">
-                <p>
-                   Semelhante ao endereçamento indireto. O campo
-de endereço se refere a um registrador que possui
-o endereço do operando, e o endereço do operando é determinado por um registrador.
-                </p>
-            </div>
-
-            {{> botoes}}
-
+{{#section 'simulacao'}}
+    <div class="memoria">
+        <div class="instrucao">
+            <p class="texto-instrucao">Instrução</p>
         </div>
-    <script src="/assets/scripts/js/steps/indireto-registrador.js"></script>
+        <h1 class="texto-memoria">Memória</h1>
+        <div class="registradores">
+            <h1 class="texto-registrador">Registrador</h1>
+        </div>
     </div>
-</section>
+{{/section}}
+
+{{#section 'texto'}}
+    Semelhante ao endereçamento indireto. O campo de endereço se refere a um registrador que possui
+    o endereço do operando, e o endereço do operando é determinado por um registrador.
+{{/section}}
+
+{{#section 'scripts'}}
+    <script src="/assets/scripts/js/steps/indireto-registrador.js"></script>
+{{/section}}
