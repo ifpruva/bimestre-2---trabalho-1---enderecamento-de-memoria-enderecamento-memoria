@@ -40,7 +40,7 @@ function compilaJs() {
 
 function watch() {
     gulp.watch(sass_src_dir, compilaSass)
-    gulp.watch(js_src_dir, compilaJs)
+    //gulp.watch(js_src_dir, compilaJs)
 }
 
 gulp.task('watch', watch)
