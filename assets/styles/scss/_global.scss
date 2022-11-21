@@ -133,6 +133,18 @@ html {
     overflow: hidden;
     border-radius: 0.25rem;
     margin-bottom: 1rem;
+
+    @media screen and (max-width: $lg) {
+      zoom: .7;
+    }
+
+    @media screen and (max-width: $md) {
+      zoom: .5;
+    }
+
+    @media screen and (max-width: $sm) {
+      zoom: .3;
+    }
     
     .memoria {
       position: relative;
