@@ -21,3 +21,6 @@ async function prevEtapa(){
         document.querySelector(".texto-instrucao").textContent = "Instrução";
     }
 }
+
+document.querySelector("#registrador").style.fontWeight = "600";
+document.querySelector("#registrador").style.color = "#cc253b";

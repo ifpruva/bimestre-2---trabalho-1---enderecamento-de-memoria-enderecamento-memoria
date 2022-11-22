@@ -29,3 +29,6 @@ async function prevEtapa(){
         document.querySelector(".texto-instrucao").textContent = "Instrução";
     }
 }
+
+document.querySelector("#indireto").style.fontWeight = "600";
+document.querySelector("#indireto").style.color = "#cc253b";
