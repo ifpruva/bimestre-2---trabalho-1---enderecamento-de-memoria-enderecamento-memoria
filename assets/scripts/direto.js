@@ -21,7 +21,3 @@ async function prevEtapa(){
         document.querySelector(".texto-instrucao").textContent = "Instrução";
     }
 }
-
-
-document.querySelector("#direto").style.fontWeight = "600";
-document.querySelector("#direto").style.color = "#cc253b";

@@ -7,7 +7,13 @@ app.use('/assets', express.static(__dirname + '/assets'))
 
 var hbs = exphbs.create({
   helpers: { 
-    section: sections() 
+    section: sections(),
+    'ifCond': function(v1, v2, options) {
+      if(v1 == v2) {
+        return options.fn(this);
+      }
+      return options.inverse(this);
+    }
   },
   extname: '.hbs'
 });

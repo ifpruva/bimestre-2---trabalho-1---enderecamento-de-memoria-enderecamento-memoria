@@ -11,6 +11,3 @@ async function prevEtapa(){
     document.querySelector(".texto-instrucao").textContent = "Instrução";
     showOnlyNextButton();
 }
-
-document.querySelector("#imediato").style.fontWeight = "600";
-document.querySelector("#imediato").style.color = "#cc253b";

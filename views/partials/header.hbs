@@ -8,16 +8,16 @@
         <link rel="icon" href="/assets/images/favicon.svg">
         <link rel="stylesheet" href="/assets/styles/style.min.css"/>
     </head>
-    <body>
+    <body class="body">
       <header>
         <ul>
-          <li><a href="/" id="inicio">Início</a></li>
-          <li><a href="/imediato" id="imediato">Imediato</a></li>
-          <li><a href="/direto" id="direto">Direto</a></li>
-          <li><a href="/indireto" id="indireto">Indireto</a></li>
-          <li><a href="/registrador" id="registrador">Registrador</a></li>
-          <li><a href="/indireto-registrador" id="indireto-registrador">Indireto de registrador</a></li>
-          <li><a href="/deslocamento" id="deslocamento">Deslocamento</a></li>
-          <li><a href="/pilha" id="pilha">Pilha</a></li>
+          <li><a href="/" id="inicio" class="{{#ifCond _sections.slug 'inicio'}}active{{/ifCond}}">Início</a></li>
+          <li><a href="/imediato" id="imediato" class="{{#ifCond _sections.slug 'etapa-imediato'}}active{{/ifCond}}">Imediato</a></li>
+          <li><a href="/direto" id="direto" class="{{#ifCond _sections.slug 'etapa-direto'}}active{{/ifCond}}">Direto</a></li>
+          <li><a href="/indireto" id="indireto" class="{{#ifCond _sections.slug 'etapa-indireto'}}active{{/ifCond}}">Indireto</a></li>
+          <li><a href="/registrador" id="registrador" class="{{#ifCond _sections.slug 'etapa-registrador'}}active{{/ifCond}}">Registrador</a></li>
+          <li><a href="/indireto-registrador" id="indireto-registrador" class="{{#ifCond _sections.slug 'etapa-indireto-registrador'}}active{{/ifCond}}">Indireto de registrador</a></li>
+          <li><a href="/deslocamento" id="deslocamento" class="{{#ifCond _sections.slug 'etapa-deslocamento'}}active{{/ifCond}}">Deslocamento</a></li>
+          <li><a href="/pilha" id="pilha" class="{{#ifCond _sections.slug 'etapa-pilha'}}active{{/ifCond}}">Pilha</a></li>
         </ul>
       </header>

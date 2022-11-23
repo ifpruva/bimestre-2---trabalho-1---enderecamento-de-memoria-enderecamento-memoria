@@ -57,7 +57,3 @@ async function prevEtapa(){
         document.querySelector(".texto-instrucao").textContent = "";
     }
 }
-
-
-document.querySelector("#deslocamento").style.fontWeight = "600";
-document.querySelector("#deslocamento").style.color = "#cc253b";

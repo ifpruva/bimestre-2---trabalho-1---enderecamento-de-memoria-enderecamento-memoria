@@ -71,6 +71,11 @@ html {
             }
           }
 
+          &.active {
+            font-weight: 700;
+            color: $red;
+          }
+
         }         
       }
     }
@@ -161,7 +166,7 @@ html {
     .texto-memoria {
       color: $gray;
       margin-top: -1.5rem;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
       font-weight: bold;
       text-align: center;
     }
@@ -169,21 +174,21 @@ html {
     .texto-registrador {
       color: $green;
       margin-top: -1.5rem;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
       font-weight: bold;
       text-align: center;
     }
 
     .texto-instrucao {
       margin-top: 0.55rem;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: $white;
       font-weight: bold;
       text-align: center;
     }
 
     .texto-instrucao1 {
       margin-top: 0.55rem;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: $white;
       font-weight: bold;
       text-align: center;
       margin-left: 1rem;

@@ -17,5 +17,3 @@ async function prevEtapa(){
         document.querySelector(".etapa-pilha").classList.add("step-1");
     }
 }
-document.querySelector("#pilha").style.fontWeight = "600";
-document.querySelector("#pilha").style.color = "#cc253b";
